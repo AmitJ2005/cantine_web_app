@@ -78,7 +78,7 @@ def generate_qr_code_with_name(data):
 # Streamlit app
 def main():
     global name  # Use the global 'name' variable
-    st.title("Student Information App")
+    # st.title("Student Information App")
 
     # Sidebar navigation
     page = st.sidebar.selectbox("Select a page", ["QR Code Generator", "Database"])
